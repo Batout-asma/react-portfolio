@@ -11,3 +11,19 @@ body {
   background-size: cover;
   background-position: center;
 }
+.navbar {
+  position: relative;
+}
+.navbar::after {
+  content: "";
+  width: 0%;
+  height: 3px;
+  background: #65b741;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+.navbar:hover::after {
+  width: 100%;
+}
