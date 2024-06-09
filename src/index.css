@@ -16,7 +16,7 @@ body {
 }
 .navbar::after {
   content: "";
-  width: 0%;
+  width: 0;
   height: 3px;
   background: #65b741;
   position: absolute;
@@ -26,4 +26,13 @@ body {
 }
 .navbar:hover::after {
   width: 100%;
+}
+
+/* -- -------------- about -------------- -- */
+.tab-links {
+  margin-right: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
 }
