@@ -4,12 +4,30 @@
 
 body {
   @apply bg-[#080808] text-white;
+  font-family: Kalam, sans-serif;
+}
+h2 {
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.link {
+  display: inline-block;
+  font-size: 15px;
+  color: #fff;
+  text-decoration: underline;
+  margin-top: 20px;
 }
 
 .header {
-  background-image: url(/images/background.png);
-  background-size: cover;
-  background-position: center;
+  background-color: black;
+  background-image: url(/images/Background.JPG);
+  filter: brightness(1.5) contrast(1.25);
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .navbar {
   position: relative;
@@ -30,11 +48,15 @@ body {
 
 /* -- -------------- about -------------- -- */
 .tab-links {
+  color: #fff;
   margin-right: 50px;
-  font-size: 18px;
+  font-size: 24px;
   font-weight: 500;
-  cursor: pointer;
   position: relative;
+}
+.tab-links:hover {
+  color: #65b741;
+  transition: 0.5s;
 }
 
 .tab-links::after {
@@ -51,20 +73,21 @@ body {
   width: 50%;
 }
 
-.tab-contents ul li {
-  list-style: none;
-  margin: 0 0 10px 0;
+/* -- -------------- My Services -------------- -- */
+.services-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 40px;
+  margin-top: 50px;
 }
 
-.tab-contents ul li span {
-  color: #65b741;
-  font-size: 14px;
+.services-list div {
+  transition:
+    background 0.5s,
+    transform 0.5s;
 }
 
-.tab-contents {
-  display: none;
-}
-
-.tab-contents.active-tab {
-  display: block;
+.services-list div:hover {
+  background: #296000;
+  transform: translateY(-10px);
 }
