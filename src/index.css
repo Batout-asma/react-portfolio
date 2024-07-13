@@ -106,14 +106,20 @@ h3 {
   grid-gap: 40px;
   margin-top: 50px;
 }
-.work {
-  border-radius: 10px;
-  position: relative;
-  overflow: hidden;
-}
 
 .work img {
-  width: 100%;
-  border-radius: 10px;
-  display: block;
+  transition: transform 0.5s;
+}
+
+.layer {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), #64b741);
+  transition: height 0.5s;
+}
+
+.work:hover img {
+  transform: scale(1.1);
+}
+
+.work:hover .layer {
+  height: 100%;
 }
