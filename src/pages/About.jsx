@@ -9,9 +9,9 @@ export default function About() {
   };
 
   return (
-    <div className="about py-[50px] text-[#ababab]">
-      <div className="container pl-[150px]">
-        <div className="row flex flex-wrap justify-between">
+    <div id="About" className="about py-[50px] text-[#ababab]">
+      <div className="container">
+        <div className="row ">
           <div className="about-col-1 basis-[35%]">
             <img src="/images/user.png" className="w-full rounded-2xl" />
           </div>

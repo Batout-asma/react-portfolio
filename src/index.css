@@ -6,6 +6,12 @@ body {
   @apply bg-[#080808] text-white;
   font-family: Kalam, sans-serif;
 }
+h1 {
+  display: block;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 15px 0;
+}
 h2 {
   display: block;
   font-size: 30px;
@@ -18,6 +24,14 @@ h3 {
   font-size: 20px;
   font-weight: bold;
   margin: 15px 0;
+}
+.container {
+  padding-left: 150px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .link {
@@ -123,3 +137,14 @@ h3 {
 .work:hover .layer {
   height: 100%;
 }
+
+.btn {
+  transition: background 0.5s;
+}
+
+.btn:hover {
+  background: #65b741;
+  border-color: #fff;
+}
+
+/* -- -------------- Contact -------------- -- */

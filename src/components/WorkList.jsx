@@ -38,7 +38,7 @@ export default function WorkList() {
             href={link}
             className="mt-5 h-[60px] w-[60px] rounded-[50%] bg-[#fff] text-center text-lg leading-[60px] text-[#65B741]"
           >
-            <FontAwesomeIcon icon={icon} className="" />
+            <FontAwesomeIcon icon={icon} />
           </a>
         </div>
       </div>

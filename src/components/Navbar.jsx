@@ -7,19 +7,19 @@ const links = [
   },
   {
     name: "About",
-    link: "#",
+    link: "#About",
   },
   {
     name: "Services",
-    link: "#",
+    link: "#Services",
   },
   {
     name: "Portfolio",
-    link: "#",
+    link: "#Portfolio",
   },
   {
     name: "Contact",
-    link: "#",
+    link: "#Contact",
   },
 ];
 

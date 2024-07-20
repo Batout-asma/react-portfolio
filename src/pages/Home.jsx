@@ -2,7 +2,7 @@ import Navbar from "../components/Navbar";
 
 export default function Home() {
   return (
-    <div className="header h-screen w-full ">
+    <div id="Home" className="header h-screen w-full ">
       <div className="px-[10%] py-[10px]">
         <Navbar />
         <div className="header-text mt-[20%] text-3xl">
