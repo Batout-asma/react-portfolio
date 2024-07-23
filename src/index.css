@@ -179,4 +179,20 @@ h3 {
 .btn.btn2 {
   display: inline-block;
   background: #65b741;
+  border-color: #fff;
+}
+.btn2:hover {
+  background: #64b7418f;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  outline: none;
+  background: #262626;
+  padding: 15px;
+  margin: 15px 0;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 6px;
 }

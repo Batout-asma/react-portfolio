@@ -22,20 +22,20 @@ export default function Contact() {
               +213 000 000 000
             </p>
             <div className="social-icons mt-[30px]">
+              <a href="https://www.instagram.com/batout_asma/">
+                <FontAwesomeIcon icon={["fab", "instagram"]} className="" />
+              </a>
               <a href="https://www.facebook.com/profile.php?id=100074857811104&locale=fr_FR">
                 <FontAwesomeIcon icon={["fab", "facebook"]} className="" />
               </a>
               <a href="https://github.com/Batout-asma">
                 <FontAwesomeIcon icon={["fab", "github"]} className="" />
               </a>
-              <a href="https://www.instagram.com/batout_asma/">
-                <FontAwesomeIcon icon={["fab", "instagram"]} className="" />
-              </a>
               <a href="https://www.linkedin.com/in/batout-asma-675887229/">
                 <FontAwesomeIcon icon={["fab", "linkedin"]} className="" />
               </a>
             </div>
-            <a href="" className="btn btn2">
+            <a href="/images/my-cv.pdf" download className="btn btn2 ">
               Download CV
             </a>
           </div>
@@ -53,7 +53,9 @@ export default function Contact() {
                 rows="6"
                 placeholder="Your Message"
               ></textarea>
-              <button type="submit">Submit</button>
+              <button type="submit" className="btn btn2 bg-[#65B741]">
+                Submit
+              </button>
             </form>
           </div>
         </div>
