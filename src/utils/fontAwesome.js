@@ -4,6 +4,8 @@ import {
   faCode,
   faCropSimple,
   faArrowUpRightFromSquare,
+  faPaperPlane,
+  faSquarePhone,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faAppStore,
@@ -11,6 +13,7 @@ import {
   faInstagram,
   faGithub,
   faTelegram,
+  faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 
 library.add(
@@ -22,4 +25,7 @@ library.add(
   faInstagram,
   faGithub,
   faTelegram,
+  faPaperPlane,
+  faSquarePhone,
+  faLinkedin,
 );

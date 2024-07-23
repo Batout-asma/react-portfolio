@@ -8,10 +8,7 @@ export default function Portfolio() {
           My Work
         </h1>
         <WorkList />
-        <a
-          href="#"
-          className="btn mx-auto my-[50px] block w-fit rounded-md border-[2px] border-solid border-[#65B741] px-[50px] py-[14px] text-lg"
-        >
+        <a href="#" className="btn">
           See more
         </a>
       </div>

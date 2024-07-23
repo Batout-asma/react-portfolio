@@ -139,6 +139,21 @@ h3 {
 }
 
 .btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: block;
+  width: fit-content;
+  border-radius: 6px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #65b741;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  font-size: 18px;
   transition: background 0.5s;
 }
 
@@ -148,3 +163,20 @@ h3 {
 }
 
 /* -- -------------- Contact -------------- -- */
+.social-icons a {
+  font-size: 30px;
+  margin-right: 15px;
+  color: #ababab;
+  display: inline-block;
+  transition: transform 0.5s;
+}
+
+.social-icons a:hover {
+  color: #65b741;
+  transform: translateY(-5px);
+}
+
+.btn.btn2 {
+  display: inline-block;
+  background: #65b741;
+}
